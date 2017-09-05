@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  padding: 20px; }
+  .footer .footer-logo-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .footer .footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .footer .footer-info .footer-nombre-tec {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.54); }
+    .footer .footer-info .footer-nombre-aplicacion {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.54); }
+    .footer .footer-info .footer-motor {
+      color: rgba(0, 0, 0, 0.54);
+      text-decoration: underline; }

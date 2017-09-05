@@ -1,0 +1,6 @@
+.zona-flotante {
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  display: flex;
+  flex-direction: row; }

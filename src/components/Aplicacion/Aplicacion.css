@@ -1,0 +1,18 @@
+.aplicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  cursor: pointer;
+  flex-direction: column;
+  transition-duration: 0.5s; }
+  .aplicacion .aplicacion-icon svg {
+    color: rgba(0, 0, 0, 0.54) !important; }
+  .aplicacion .aplicacion-nombre {
+    color: rgba(0, 0, 0, 0.54); }
+  .aplicacion:hover {
+    background-color: #793551; }
+    .aplicacion:hover .aplicacion-icon svg {
+      color: #ffffff !important; }
+    .aplicacion:hover .aplicacion-nombre {
+      color: #ffffff; }

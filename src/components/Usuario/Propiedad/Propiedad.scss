@@ -1,0 +1,23 @@
+.propiedad {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  &:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+
+  .propiedad-nombre {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .propiedad-valor {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}
